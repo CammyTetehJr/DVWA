@@ -18,7 +18,7 @@ $_DVWA = array();
 $_DVWA[ 'db_server' ]   = '127.0.0.1';
 $_DVWA[ 'db_database' ] = 'dvwa';
 $_DVWA[ 'db_user' ]     = 'root';
-$_DVWA[ 'db_password' ] = 'p@ssw0rd';
+$_DVWA[ 'db_password' ] = '';
 
 # Only used with PostgreSQL/PGSQL database selection.
 $_DVWA[ 'db_port '] = '5432';
@@ -32,7 +32,7 @@ $_DVWA[ 'recaptcha_private_key' ] = '';
 # Default security level
 #   Default value for the secuirty level with each session.
 #   The default is 'impossible'. You may wish to set this to either 'low', 'medium', 'high' or impossible'.
-$_DVWA[ 'default_security_level' ] = 'impossible';
+$_DVWA[ 'default_security_level' ] = 'low';
 
 # Default PHPIDS status
 #   PHPIDS status with each session.
